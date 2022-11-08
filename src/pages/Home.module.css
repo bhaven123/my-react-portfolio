@@ -1,3 +1,47 @@
-h1 {
-    
+.block {
+  margin: auto;
+  height: calc(100vh - 5rem);
+  padding: 2.5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro {
+  color: rgb(233, 27, 233);
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.sdev {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8892b0;
+  line-height: 3rem;
+  margin: 10px auto;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ccd6f6;
+  line-height: 3rem;
+  margin: 20px auto;
+}
+
+.summary {
+  color: #8892b0;
+  margin: 20px auto;
+  font-size: 1rem;
+}
+
+.outer {
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(#231942);
+  background-color: #231942;
+  box-shadow: 0 0 30px 0 purple;
+  z-index: auto;
 }

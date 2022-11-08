@@ -1,3 +1,26 @@
-h1 {
-    
+.projects {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 3rem;
+  margin: auto;
+  padding: 35px;
+}
+
+.image {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  background: linear-gradient(#231942);
+  box-shadow: 0 0 20px 0 purple;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.projects a {
+  text-decoration: none;
 }
