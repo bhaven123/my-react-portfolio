@@ -6,35 +6,39 @@ import ganImage from "../assets/gans.png";
 const Work = () => {
   return (
     <div id="work" className={classes.projects}>
-      <a
-        href="https://github.com/bhaven123/my-react-portfolio.git"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <div className={classes.container}>
         <img src={portfolio} alt="Portfolio" className={classes.image} />
-        <p className={classes.title}>Personal Portfolio</p>
-      </a>
-      <a
-        href="https://github.com/bhaven123/Project-GANs.git"
-        target="_blank"
-        rel="noreferrer"
-      >
+        <a
+          href="https://github.com/bhaven123/my-react-portfolio.git"
+          target="_blank"
+          rel="noreferrer"
+          className={classes["project-links"]}
+        >
+          Personal Portfolio
+        </a>
+      </div>
+      <div className={classes.container}>
         <img src={ganImage} alt="GAN Demo" className={classes.image} />
-        <p className={classes.title}>
-          <span>GAN Augmentation</span>
-        </p>
-      </a>
-
-      <a
-        href="https://github.com/bhaven123/Project-Diabetic-Retinopathy.git"
-        target="_blank"
-        rel="noreferrer"
-      >
+        <a
+          href="https://github.com/bhaven123/Project-GANs.git"
+          target="_blank"
+          rel="noreferrer"
+          className={classes["project-links"]}
+        >
+          GAN Augmentation
+        </a>
+      </div>
+      <div className={classes.container}>
         <img src={drImage} alt="DR Demo UI" className={classes.image} />
-        <p className={classes.title}>
-          <span>Diabetic Retinopathy</span>
-        </p>
-      </a>
+        <a
+          href="https://github.com/bhaven123/Project-Diabetic-Retinopathy.git"
+          target="_blank"
+          rel="noreferrer"
+          className={classes["project-links"]}
+        >
+          Diabetic Retinopathy
+        </a>
+      </div>
     </div>
   );
 };
