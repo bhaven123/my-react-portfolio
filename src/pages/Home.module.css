@@ -1,7 +1,6 @@
 .block {
   margin: auto;
   height: calc(100vh - 5rem);
-  padding: 2.5rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
