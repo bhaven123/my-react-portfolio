@@ -2,42 +2,38 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.block {
+  margin: 1rem auto;
+  border: 1px solid #a594f9;
+  border-radius: 20px;
+  padding: 55px;
+  background-color: #231942;
+  box-shadow: 0 0 10px 0 #a594f9;
   width: 60vw;
   height: calc(100vh - 15rem);
-  margin: auto;
-  border: 1px solid #a594f9;
-  border-radius: 10px;
-  padding: 30px;
-  background-color: #231942;
-  background: linear-gradient(#a594f9);
-  box-shadow: 0 0 10px 0 #a594f9;
-}
-
-.control {
-  margin-bottom: 0.5rem;
 }
 
 .control label {
   font-weight: bold;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
   color: #a594f9;
+}
+
+.control textarea {
+  height: 8rem;
 }
 
 .control input,
 .control textarea {
   font: inherit;
-  padding: 0.35rem;
+  padding: 0.5rem;
   margin-bottom: 1.5rem;
-  border-radius: 6px;
+  border-radius: 10px;
   background-color: #ccd6f6;
   border: 1px solid #8892b0;
   display: inline-block;
   width: 100%;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .control input:focus::placeholder,
@@ -57,9 +53,8 @@ textarea:focus {
 
 .actions button {
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 10px;
   margin: 0 auto;
-  margin-top: 10px;
   padding: 0.75rem 1.5rem;
   border: 1px solid #a594f9;
   cursor: pointer;
