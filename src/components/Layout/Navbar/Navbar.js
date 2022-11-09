@@ -1,10 +1,18 @@
-import { Link } from "react-scroll";
+import { Link, animateScroll } from "react-scroll";
 import classes from "./Navbar.module.css";
+import logo from "../../../assets/logo.png";
+import resume from "../../../assets/Bhaven Naik.pdf";
 
-const NavBar = () => {
+const Navbar = () => {
+  const logoClickScrollToTop = () => {
+    animateScroll.scrollToTop();
+  };
   return (
-    <div id="navbar" className={classes.nav}>
-      <ul>
+    <nav id="navbar" className={classes.nav}>
+      <div className={classes.logo}>
+        <img src={logo} alt="Personal Logo" onClick={logoClickScrollToTop} />
+      </div>
+      <ul className={classes["nav-list"]}>
         <li>
           <Link to="home" spy={true} smooth={true} offset={-110}>
             Home
@@ -26,8 +34,18 @@ const NavBar = () => {
           </Link>
         </li>
       </ul>
-    </div>
+      <div>
+        <a
+          href={resume}
+          target="_blank"
+          rel="noreferrer noopener"
+          className={classes.resume}
+        >
+          Resume
+        </a>
+      </div>
+    </nav>
   );
 };
 
-export default NavBar;
+export default Navbar;
