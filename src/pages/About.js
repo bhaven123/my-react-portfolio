@@ -32,7 +32,7 @@ const About = () => {
         </p>
         <br />
         <p className={classes.about}>
-          This is the Tech Stack that I have been working on recently.
+          The Tech stack that I have been working on recently.
           <ol>
             <li>
               ReactJS <FontAwesomeIcon icon={faReact} />
