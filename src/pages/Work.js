@@ -15,28 +15,40 @@ const Work = () => {
         <div className={classes.container}>
           <img src={portfolio} alt="Portfolio" className={classes.image} />
           <div className={classes["project-info"]}>
-            <h2 className={classes["project-title"]}>Personal Portfolio</h2>
+            <div className={classes.block}>
+              <h2 className={classes["project-title"]}>Personal Portfolio</h2>
+              <a
+                href="https://github.com/bhaven123/my-react-portfolio.git"
+                target="_blank"
+                rel="noreferrer"
+                className={classes["project-links"]}
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </div>
             <p className={classes.description}>
               <ul>
                 <li>
-                  Developed Personal Portfolio using ReactJS, HTML and CSS
+                  Developed Personal Portfolio using ReactJS, HTML and CSS.
                 </li>
               </ul>
             </p>
-            <a
-              href="https://github.com/bhaven123/my-react-portfolio.git"
-              target="_blank"
-              rel="noreferrer"
-              className={classes["project-links"]}
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
           </div>
         </div>
         <div className={classes.container}>
           <img src={ganImage} alt="GAN Demo" className={classes.image} />
           <div className={classes["project-info"]}>
-            <h2 className={classes["project-title"]}>GAN Augmentation</h2>
+            <div className={classes.block}>
+              <h2 className={classes["project-title"]}>GAN Augmentation</h2>
+              <a
+                href="https://github.com/bhaven123/Project-GANs.git"
+                target="_blank"
+                rel="noreferrer"
+                className={classes["project-links"]}
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </div>
             <p className={classes.description}>
               <ul>
                 <li>
@@ -50,20 +62,22 @@ const Work = () => {
                 </li>
               </ul>
             </p>
-            <a
-              href="https://github.com/bhaven123/Project-GANs.git"
-              target="_blank"
-              rel="noreferrer"
-              className={classes["project-links"]}
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
           </div>
         </div>
         <div className={classes.container}>
           <img src={drImage} alt="DR Demo UI" className={classes.image} />
           <div className={classes["project-info"]}>
-            <h2 className={classes["project-title"]}>Diabetic Retinopathy</h2>
+            <div className={classes.block}>
+              <h2 className={classes["project-title"]}>Diabetic Retinopathy</h2>
+              <a
+                href="https://github.com/bhaven123/Project-Diabetic-Retinopathy.git"
+                target="_blank"
+                rel="noreferrer"
+                className={classes["project-links"]}
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </div>
             <p className={classes.description}>
               <ul>
                 <li>
@@ -76,14 +90,6 @@ const Work = () => {
                 </li>
               </ul>
             </p>
-            <a
-              href="https://github.com/bhaven123/Project-Diabetic-Retinopathy.git"
-              target="_blank"
-              rel="noreferrer"
-              className={classes["project-links"]}
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
           </div>
         </div>
       </div>
