@@ -17,6 +17,7 @@
   object-fit: cover;
   margin-left: 30px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .resume {
@@ -63,4 +64,5 @@
   color: #a594f9;
   padding-bottom: 0.25rem;
   border-bottom: 4px solid #a594f9;
+  cursor: pointer;
 }
