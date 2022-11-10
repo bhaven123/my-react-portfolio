@@ -3,6 +3,9 @@ import classes from "./Contact.module.css";
 const Contact = () => {
   return (
     <div id="contact" className={classes.block}>
+      <h1 className={classes.heading}>
+        Contact <span>Me!</span>
+      </h1>
       <form
         method="POST"
         action="https://getform.io/f/70a7734a-55fd-4bb8-a0f6-54e393d648d8"
@@ -36,7 +39,7 @@ const Contact = () => {
         </div>
         <div className={classes.actions}>
           <button type="submit" className={classes.submit}>
-            Contact me!
+            Shoot!
           </button>
         </div>
       </form>
