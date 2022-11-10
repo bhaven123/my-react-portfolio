@@ -17,7 +17,7 @@ const About = () => {
         <p className={classes.about}>
           Hi! I'm Bhaven Naik and I have an interest in creating Full-Stack
           Applications. I am also interesed in Data Science and related
-          positions.
+          positions. I am looking to kickstart my professional career.
         </p>
       </div>
     </div>
