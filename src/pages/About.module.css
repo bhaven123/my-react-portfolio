@@ -1,49 +1,78 @@
 .position {
-  height: calc(100vh - 10rem);
   margin: 5rem auto;
   padding: 2rem 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.h1 {
+.heading {
+  color: #ccd6f6;
+  text-align: center;
+  margin: auto;
+  font-size: 4rem;
+  border-right: 2px double purple;
+  padding-right: 100px;
+}
+
+.heading span {
+  display: flex;
+  color: purple;
+}
+
+.greeting {
   color: #ccd6f6;
   margin: auto;
   text-align: center;
   padding: 1rem;
 }
 
-.h2 {
+.sdev {
   color: #ccd6f6;
   background: linear-gradient(purple);
   text-align: center;
+  border-bottom: 1px solid purple;
+  background-color: purple;
 }
 
 .about {
   color: #8892b0;
   margin: auto;
-  text-align: center;
-  font-size: 1rem;
+  text-align: justify;
+  font-size: 1.3rem;
 }
 
 .profile-pic {
   height: 300px;
-  width: 100%;
+  width: 300px;
+  transform: scale(0.9);
   object-fit: cover;
-  margin: 0;
-  border: none;
-  box-shadow: none;
-  border-radius: 14px;
+  border-radius: 50%;
+  margin: auto;
+  z-index: 1;
+  border: 7px double purple;
+}
+.container {
+  margin: auto;
 }
 
-.container {
-  padding: 1rem;
-  border: 1px solid #ccd6f6;
-  box-shadow: 0 2px 8px #ccd6f6;
-  border-radius: 14px;
-  text-align: center;
-  width: 300px;
-  height: 450px;
+.rounds {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: purple;
+  position: relative;
+}
+
+.rounds:nth-child(1) {
+  transform: scale(0.5);
+  top: 100px;
+}
+
+.rounds:nth-last-child(1) {
+  transform: scale(1.2);
+  bottom: 120px;
+  transform: translateX(125px);
+  z-index: -1;
+  background-color: transparent !important;
+  border: 2px solid purple;
 }
