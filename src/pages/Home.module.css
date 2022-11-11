@@ -39,8 +39,16 @@
   margin: 10px auto;
   border-radius: 10px;
   padding: 50px;
-  background: linear-gradient(#231942);
   background-color: #231942;
   box-shadow: 0 0 30px 0 purple;
   z-index: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .outer {
+    width: fit-content;
+    height: fit-content;
+    margin: 30px 15px;
+    padding: 10px 20px;
+  }
 }

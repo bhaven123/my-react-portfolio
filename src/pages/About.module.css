@@ -76,3 +76,9 @@
   background-color: transparent !important;
   border: 2px solid purple;
 }
+
+@media only screen and (max-width: 768px) {
+  .position {
+    grid-template-columns: auto;
+  }
+}

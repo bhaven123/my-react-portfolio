@@ -87,3 +87,29 @@
 .project-links:hover {
   color: #a594f9;
 }
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    margin: 20px 10px;
+    padding-top: 30px;
+  }
+
+  .gridwork {
+    grid-template-rows: auto;
+    width: 100%;
+    height: 100%;
+    grid-gap: 1rem;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .container {
+    grid-template-columns: auto;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .image {
+    border-right: none;
+  }
+}

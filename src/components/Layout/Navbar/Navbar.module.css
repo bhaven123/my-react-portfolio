@@ -66,3 +66,34 @@
   border-bottom: 4px solid #a594f9;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .resume {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-list {
+    justify-content: space-around;
+    padding-bottom: 40px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .nav-list li {
+    margin: 0;
+  }
+
+  .logo img {
+    margin: auto;
+  }
+}
