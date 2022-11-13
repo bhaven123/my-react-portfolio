@@ -18,6 +18,7 @@ const Contact = () => {
             placeholder="Enter your name"
             id="name"
             name="name"
+            required
           />
         </div>
         <div className={classes.control}>
@@ -27,6 +28,7 @@ const Contact = () => {
             placeholder="Enter your email address"
             id="email"
             name="email"
+            required
           />
         </div>
         <div className={classes.control}>
@@ -35,6 +37,7 @@ const Contact = () => {
             id="message"
             name="message"
             placeholder="I have an opportunity you might be interested in..."
+            required
           ></textarea>
         </div>
         <div className={classes.actions}>
