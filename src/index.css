@@ -13,3 +13,11 @@ body {
   padding: 0;
   background-color: #231942;
 }
+
+.centered {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
