@@ -26,13 +26,9 @@ const Work = () => {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
-            <p className={classes.description}>
-              <ul>
-                <li>
-                  Developed Personal Portfolio using ReactJS, HTML and CSS.
-                </li>
-              </ul>
-            </p>
+            <ul className={classes.description}>
+              <li>Developed Personal Portfolio using ReactJS, HTML and CSS.</li>
+            </ul>
           </div>
         </div>
         <div className={classes.container}>
@@ -49,19 +45,17 @@ const Work = () => {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
-            <p className={classes.description}>
-              <ul>
-                <li>
-                  Worked on developing a GAN as a research project to gain
-                  deeper insights into applications of Generalized Adversarial
-                  Networks in the field of Medical Science.
-                </li>
-                <li>
-                  Developed a GAN that could produce augmented videos of Human
-                  Action Recognition using PyTorch and PyTorch Lightning.
-                </li>
-              </ul>
-            </p>
+            <ul className={classes.description}>
+              <li>
+                Worked on developing a GAN as a research project to gain deeper
+                insights into applications of Generalized Adversarial Networks
+                in the field of Medical Science.
+              </li>
+              <li>
+                Developed a GAN that could produce augmented videos of Human
+                Action Recognition using PyTorch and PyTorch Lightning.
+              </li>
+            </ul>
           </div>
         </div>
         <div className={classes.container}>
@@ -78,18 +72,16 @@ const Work = () => {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
-            <p className={classes.description}>
-              <ul>
-                <li>
-                  Worked with TensorFlow, Keras to fine tune a pre-trained VGG16
-                  model with custom classes.
-                </li>
-                <li>
-                  Created a client interface using Flask, HTML, CSS and deployed
-                  it using AWS EC2 instance.
-                </li>
-              </ul>
-            </p>
+            <ul className={classes.description}>
+              <li>
+                Worked with TensorFlow, Keras to fine tune a pre-trained VGG16
+                model with custom classes.
+              </li>
+              <li>
+                Created a client interface using Flask, HTML, CSS and deployed
+                it using AWS EC2 instance.
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -33,21 +33,22 @@ const About = () => {
         <br />
         <p className={classes.about}>
           The Tech stack that I have been working on recently.
-          <ol>
-            <li>
-              ReactJS <FontAwesomeIcon icon={faReact} />
-            </li>
-            <li>
-              NodeJS <FontAwesomeIcon icon={faNode} />
-            </li>
-            <li>
-              HTML <FontAwesomeIcon icon={faHtml5} />
-            </li>
-            <li>
-              CSS <FontAwesomeIcon icon={faCss3} />
-            </li>
-          </ol>
         </p>
+        <br />
+        <ol className={classes.about}>
+          <li>
+            ReactJS <FontAwesomeIcon icon={faReact} />
+          </li>
+          <li>
+            NodeJS <FontAwesomeIcon icon={faNode} />
+          </li>
+          <li>
+            HTML <FontAwesomeIcon icon={faHtml5} />
+          </li>
+          <li>
+            CSS <FontAwesomeIcon icon={faCss3} />
+          </li>
+        </ol>
       </div>
     </div>
   );
