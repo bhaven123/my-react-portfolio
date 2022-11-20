@@ -3,6 +3,7 @@ import portfolio from "../assets/portfolio.png";
 import drImage from "../assets/dr.png";
 import ganImage from "../assets/gans.png";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Work = () => {
@@ -18,12 +19,12 @@ const Work = () => {
             <div className={classes.block}>
               <h2 className={classes["project-title"]}>Personal Portfolio</h2>
               <a
-                href="https://github.com/bhaven123/my-react-portfolio.git"
+                href="https://bhaven-naik.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={classes["project-links"]}
               >
-                <FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faLink} />
               </a>
             </div>
             <ul className={classes.description}>
