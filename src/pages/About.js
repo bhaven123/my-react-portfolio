@@ -1,6 +1,7 @@
 import classes from "./About.module.css";
 import profileImage from "../assets/profile.jpg";
 import {
+  faPython,
   faReact,
   faNode,
   faHtml5,
@@ -26,16 +27,24 @@ const About = () => {
       <div>
         <h1 className={classes.greeting}>Hi! I'm Bhaven Naik</h1>
         <p className={classes.about}>
-          Hi! I'm Bhaven Naik and I have an interest in creating Full-Stack
-          Applications. I am also interesed in Data Science and related
+          I have an interest in creating Full-Stack Applications. I am also
+          interesed in Machine Learning, Data Science and other related
           positions. I am looking to kickstart my professional career.
         </p>
         <br />
         <p className={classes.about}>
-          The Tech stack that I have been working on recently.
+          I am always open to learning new things to expand my knowledge and
+          grow as a developer.
+        </p>
+        <br />
+        <p className={classes.about}>
+          The Tech stack that I have been working on recently :
         </p>
         <br />
         <ol className={classes.about}>
+          <li>
+            Python <FontAwesomeIcon icon={faPython} />
+          </li>
           <li>
             ReactJS <FontAwesomeIcon icon={faReact} />
           </li>
