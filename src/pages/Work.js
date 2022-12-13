@@ -56,7 +56,13 @@ const Work = () => {
               </li>
               <li>
                 Developed a GAN that could produce augmented videos of Human
-                Action Recognition using PyTorch and PyTorch Lightning.
+                Action Recognition using PyTorch and PyTorch Lightning on the
+                HMDB51 dataset.
+              </li>
+              <li>
+                Using a pretrained video classifier available in PyTorchVideo,
+                tested whether the augmented videos help in improving the
+                performance of the classifier.
               </li>
             </ul>
           </div>
@@ -77,13 +83,11 @@ const Work = () => {
             </div>
             <ul className={classes.description}>
               <li>
-                Worked with TensorFlow, Keras to fine tune a pre-trained VGG16
+                Worked with TensorFlow Keras to fine tune a pre-trained VGG16
                 model with custom classes.
               </li>
-              <li>
-                Created a client interface using Flask, HTML, CSS and deployed
-                it using AWS EC2 instance.
-              </li>
+              <li>Created a client interface using Flask, HTML, CSS.</li>
+              <li>Deployed the project using an AWS EC2 instance.</li>
             </ul>
           </div>
         </div>
