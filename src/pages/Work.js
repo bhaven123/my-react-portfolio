@@ -29,6 +29,8 @@ const Work = () => {
             </div>
             <ul className={classes.description}>
               <li>Developed Personal Portfolio using ReactJS, HTML and CSS.</li>
+              <li>Used react-scroll for single page navigation.</li>
+              <li>Used CSS modules for styling the entire website.</li>
             </ul>
           </div>
         </div>
