@@ -81,7 +81,11 @@
   color: #8892b0;
   margin: auto 1rem;
   text-align: justify;
-  font-size: 1rem;
+  font-size: 1.1rem;
+}
+
+.description li {
+  padding: 10px;
 }
 
 .project-links:hover {
