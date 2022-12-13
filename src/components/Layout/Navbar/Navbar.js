@@ -1,7 +1,7 @@
 import { Link, animateScroll } from "react-scroll";
 import classes from "./Navbar.module.css";
 import logo from "../../../assets/logo.png";
-import resume from "../../../assets/Bhaven Naik.pdf";
+import resume from "../../../assets/Bhaven_Naik_Resume.pdf";
 
 const Navbar = () => {
   const logoClickScrollToTop = () => {
