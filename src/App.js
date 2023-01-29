@@ -14,14 +14,14 @@ const App = () => {
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 3000);
   }, []);
 
   return (
     <Fragment>
       {isLoading ? (
         <div className="centered">
-          <Button variant="info" disabled>
+          <Button variant="success" disabled>
             <Spinner
               as="span"
               animation="border"
