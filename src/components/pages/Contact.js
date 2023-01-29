@@ -22,9 +22,12 @@ const Contact = () => {
   };
 
   return (
-    <Container id="contact" className="w-75 min-vh-100">
+    <Container
+      id="contact"
+      className="w-75 min-vh-100 d-flex flex-column justify-content-center"
+    >
       <h1
-        className="w-25 text-center border-3 border-bottom border-secondary border-end mb-5 pb-3 fs-1 fw-bolder mx-auto"
+        className="vw-25 text-center border-3 border-bottom border-secondary border-end mb-5 pb-3 pe-2 fs-1 fw-bolder mx-auto"
         style={{ color: "#ccd6f6" }}
       >
         Contact <span style={{ color: "purple" }}>Me!</span>
@@ -46,7 +49,6 @@ const Contact = () => {
               >
                 <Form.Control
                   type="text"
-                  id="name"
                   name="name"
                   placeholder="Enter your name"
                   required
@@ -67,7 +69,6 @@ const Contact = () => {
               >
                 <Form.Control
                   type="email"
-                  id="email"
                   name="email"
                   placeholder="Enter your email"
                   required
@@ -89,7 +90,6 @@ const Contact = () => {
           >
             <Form.Control
               as="textarea"
-              id="message"
               name="message"
               placeholder="Enter your message"
               required

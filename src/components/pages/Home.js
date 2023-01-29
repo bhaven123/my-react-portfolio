@@ -2,10 +2,10 @@ import { Card, Container } from "react-bootstrap";
 
 const Home = () => {
   return (
-    <Container className="min-vh-100">
+    <Container className="min-vh-100 d-flex align-items-center">
       <Card
         id="home"
-        className="py-5 px-5 mb-5 w-50 mx-auto mt-5"
+        className="py-5 px-5 mb-5 vw-50 mt-5 mx-auto px-auto"
         border="light"
         bg="dark"
       >
