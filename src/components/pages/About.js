@@ -5,6 +5,7 @@ import {
   faNode,
   faHtml5,
   faCss3,
+  faBootstrap,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "react-bootstrap";
@@ -54,7 +55,8 @@ const About = () => {
               HTML <FontAwesomeIcon icon={faHtml5} />
             </li>
             <li>
-              CSS <FontAwesomeIcon icon={faCss3} />
+              Bootstrap <FontAwesomeIcon icon={faBootstrap} /> & CSS{" "}
+              <FontAwesomeIcon icon={faCss3} />
             </li>
           </ol>
         </Container>
