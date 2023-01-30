@@ -15,7 +15,7 @@ import {
 
 const Work = () => {
   return (
-    <Container id="work" className="min-vh-100">
+    <Container id="work" className="min-vh-100 py-3">
       <h1
         className="w-25 mx-auto text-center border-3 border-bottom border-secondary border-end mb-5 pb-3 fs-1 fw-bolder fw-bolder"
         style={{ color: "#ccd6f6" }}
@@ -47,28 +47,35 @@ const Work = () => {
                 <Card.Text>My portfolio website.</Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroup.Item variant="info" action>
+                <ListGroup.Item
+                  variant="dark"
+                  className="bg-dark"
+                  style={{ color: "#ccd6f6" }}
+                >
                   React, React-Bootstrap, HTML, CSS
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body>
-                <Accordion flush>
+                <Accordion flush style={{ "background-color": "blue" }}>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>Description</Accordion.Header>
                     <Accordion.Body>
-                      <ul>
-                        <li>
+                      <ListGroup>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
                           Developed Personal Portfolio using ReactJS, HTML and
-                          CSS.
-                        </li>
-                        <li>
-                          Used React-Bootstrap for responsive design and single
-                          page navigation.
-                        </li>
-                        <li>
-                          Used CSS modules for styling the entire website.
-                        </li>
-                      </ul>
+                          Bootstrap CSS.
+                        </ListGroup.Item>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
+                          Used React-Bootstrap CSS for responsive design and
+                          styling the entire website.
+                        </ListGroup.Item>
+                      </ListGroup>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -96,7 +103,11 @@ const Work = () => {
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroup.Item variant="info" action>
+                <ListGroup.Item
+                  variant="dark"
+                  className="bg-dark"
+                  style={{ color: "#ccd6f6" }}
+                >
                   Python, PyTorch, PyTorch Lightning, PyTorchVideo
                 </ListGroup.Item>
               </ListGroup>
@@ -105,23 +116,32 @@ const Work = () => {
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>Description</Accordion.Header>
                     <Accordion.Body>
-                      <ul>
-                        <li>
+                      <ListGroup>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
                           Worked on developing a GAN as a research project to
                           gain deeper insights into applications of Generalized
                           Adversarial Networks in the field of Medical Science.
-                        </li>
-                        <li>
+                        </ListGroup.Item>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
                           Developed a GAN that could produce augmented videos of
                           Human Action Recognition using PyTorch and PyTorch
                           Lightning on the HMDB51 dataset.
-                        </li>
-                        <li>
+                        </ListGroup.Item>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
                           Using a pretrained video classifier available in
                           PyTorchVideo, tested whether the augmented videos help
                           in improving the performance of the classifier.
-                        </li>
-                      </ul>
+                        </ListGroup.Item>
+                      </ListGroup>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -144,13 +164,17 @@ const Work = () => {
                   </Card.Link>
                 </Card.Title>
                 <Card.Text>
-                  To provide an efficient solution to ophthalmologists to detect
-                  the severities of the Diabetic Retinopathy and to treat the
-                  patient accordingly.
+                  A model that provides an efficient solution to
+                  ophthalmologists to help them detect the severities of the
+                  Diabetic Retinopathy and to treat the patient accordingly.
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroup.Item variant="info" action>
+                <ListGroup.Item
+                  variant="dark"
+                  className="bg-dark"
+                  style={{ color: "#ccd6f6" }}
+                >
                   Python, Tensorflow, Keras, Flask, HTML, CSS, AWS EC2.
                 </ListGroup.Item>
               </ListGroup>
@@ -159,16 +183,27 @@ const Work = () => {
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>Description</Accordion.Header>
                     <Accordion.Body>
-                      <ul>
-                        <li>
+                      <ListGroup>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
                           Worked with TensorFlow Keras to fine tune a
                           pre-trained VGG16 model with custom classes.
-                        </li>
-                        <li>
+                        </ListGroup.Item>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
                           Created a client interface using Flask, HTML, CSS.
-                        </li>
-                        <li>Deployed the project using an AWS EC2 instance.</li>
-                      </ul>
+                        </ListGroup.Item>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
+                          Deployed the project using an AWS EC2 instance.
+                        </ListGroup.Item>
+                      </ListGroup>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
