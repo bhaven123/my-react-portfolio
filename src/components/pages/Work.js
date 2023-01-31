@@ -22,12 +22,12 @@ const Work = () => {
       >
         My <span style={{ color: "purple" }}>Work</span>
       </h1>
-      <Container>
+      <Container className="d-flex justify-content-center align-items-center">
         <Row
           xs={1}
           xl={3}
           md={2}
-          className="g-4 text-justify mx-auto"
+          className="g-5 text-justify mx-auto"
           style={{ color: "#ccd6f6" }}
         >
           <Col>
