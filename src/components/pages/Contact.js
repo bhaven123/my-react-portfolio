@@ -9,6 +9,7 @@ import {
 import { useState } from "react";
 
 const Contact = () => {
+  // Managing state using useState for Form Validation
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -22,6 +23,7 @@ const Contact = () => {
   };
 
   return (
+    /* Making use of React-Bootstrap for designing the Form */
     <Container
       id="contact"
       className="w-75 min-vh-100 d-flex flex-column justify-content-center"

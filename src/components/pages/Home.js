@@ -2,6 +2,7 @@ import { Card, Container } from "react-bootstrap";
 
 const Home = () => {
   return (
+    /* Making use of React-Bootstrap for designing the Home Section */
     <Container id="home" className="min-vh-100 d-flex align-items-center">
       <Card
         className="py-5 px-5 mb-5 vw-25 mt-5 mx-auto px-auto"

@@ -12,6 +12,7 @@ import { Container } from "react-bootstrap";
 
 const About = () => {
   return (
+    /* Making use of React-Bootstrap for designing the About Section */
     <Container id="about" className="min-vh-100 py-3 mb-3">
       <h1
         className="w-25 text-center border-3 border-secondary border-end border-bottom p-auto fs-1 fw-bolder m-auto pb-3"
