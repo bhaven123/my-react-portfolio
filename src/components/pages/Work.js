@@ -110,7 +110,10 @@ const Work = () => {
                     <FontAwesomeIcon icon={faGithub} />
                   </Card.Link>
                 </Card.Title>
-                <Card.Text></Card.Text>
+                <Card.Text>
+                  A demonstration for deploying Machine Learning API as a Docker
+                  Image which can be run inside a Docker Container
+                </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
                 <ListGroup.Item
@@ -144,6 +147,55 @@ const Work = () => {
                           style={{ color: "#ccd6f6" }}
                         >
                           Created Docker Image for deployment.
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card border="light" bg="dark" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={modelDeployImage} />
+              <Card.Body>
+                <Card.Title>
+                  Exploratory Data Analysis{" "}
+                  <Card.Link
+                    href="https://github.com/bhaven123/exploratory-data-analysis"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </Card.Link>
+                </Card.Title>
+                <Card.Text>
+                  A demonstration of exploratory data analysis on Iris Flower
+                  dataset.
+                </Card.Text>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroup.Item
+                  variant="dark"
+                  className="bg-dark"
+                  style={{ color: "#ccd6f6" }}
+                >
+                  Python, Jupyter, Pandas, Scikit-learn, Matplotlib, Seaborn
+                </ListGroup.Item>
+              </ListGroup>
+              <Card.Body>
+                <Accordion flush>
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>Description</Accordion.Header>
+                    <Accordion.Body>
+                      <ListGroup>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
+                          Performed EDA on the Iris Flower dataset using Python
+                          and Jupyter Notebook.
                         </ListGroup.Item>
                       </ListGroup>
                     </Accordion.Body>
