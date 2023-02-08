@@ -112,7 +112,7 @@ const Work = () => {
                 </Card.Title>
                 <Card.Text>
                   A demonstration for deploying Machine Learning API as a Docker
-                  Image which can be run inside a Docker Container
+                  Image which can be run inside any docker container.
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
