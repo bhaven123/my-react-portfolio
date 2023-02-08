@@ -1,6 +1,7 @@
 import portfolio from "../../assets/portfolio.png";
 import drImage from "../../assets/dr.png";
 import ganImage from "../../assets/gans.png";
+import irisImage from "../../assets/iris.png";
 import contactFormImage from "../../assets/contactform.png";
 import modelDeployImage from "../../assets/modeldemo.png";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -158,10 +159,10 @@ const Work = () => {
 
           <Col>
             <Card border="light" bg="dark" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={modelDeployImage} />
+              <Card.Img variant="top" src={irisImage} />
               <Card.Body>
                 <Card.Title>
-                  Exploratory Data Analysis{" "}
+                  Exploratory Data Analysis
                   <Card.Link
                     href="https://github.com/bhaven123/exploratory-data-analysis"
                     target="_blank"
