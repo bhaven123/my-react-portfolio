@@ -59,7 +59,7 @@ const Work = () => {
                   className="bg-dark"
                   style={{ color: "#ccd6f6" }}
                 >
-                  ReactJS, ExpressJS, Material-UI, Formik, Yup.
+                  ReactJS, ExpressJS, Material-UI, Formik, Yup
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body>
@@ -122,7 +122,7 @@ const Work = () => {
                   className="bg-dark"
                   style={{ color: "#ccd6f6" }}
                 >
-                  Python, FastAPI, Docker, PyTorch.
+                  Python, FastAPI, Docker, PyTorch
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body>
@@ -182,7 +182,7 @@ const Work = () => {
                   className="bg-dark"
                   style={{ color: "#ccd6f6" }}
                 >
-                  Python, Jupyter, Pandas, Scikit-learn, Matplotlib, Seaborn.
+                  Python, Jupyter, Pandas, Scikit-learn, Matplotlib, Seaborn
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body>
@@ -284,7 +284,7 @@ const Work = () => {
                   className="bg-dark"
                   style={{ color: "#ccd6f6" }}
                 >
-                  Python, PyTorch, PyTorch Lightning, PyTorchVideo.
+                  Python, PyTorch, PyTorch Lightning, PyTorchVideo
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body>
@@ -351,7 +351,7 @@ const Work = () => {
                   className="bg-dark"
                   style={{ color: "#ccd6f6" }}
                 >
-                  Python, Tensorflow, Keras, Flask, HTML, CSS, AWS EC2.
+                  Python, Tensorflow, Keras, Flask, HTML, CSS, AWS EC2
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body>
