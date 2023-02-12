@@ -228,7 +228,7 @@ const Work = () => {
                   className="bg-dark"
                   style={{ color: "#ccd6f6" }}
                 >
-                  React, React-Bootstrap, HTML, CSS
+                  ReactJS, React-Bootstrap, HTML, CSS
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body>
@@ -297,9 +297,7 @@ const Work = () => {
                           className="bg-dark"
                           style={{ color: "#ccd6f6" }}
                         >
-                          Worked on developing a GAN as a research project to
-                          gain deeper insights into applications of Generalized
-                          Adversarial Networks in the field of Medical Science.
+                          Worked on developing a GAN as a research project.
                         </ListGroup.Item>
                         <ListGroup.Item
                           className="bg-dark"
@@ -340,9 +338,8 @@ const Work = () => {
                   </Card.Link>
                 </Card.Title>
                 <Card.Text>
-                  A model that provides an efficient solution to
-                  ophthalmologists to help them detect the severities of the
-                  Diabetic Retinopathy and to treat the patient accordingly.
+                  Fine-tuning a pre-trained model to detect the severities of
+                  the Diabetic Retinopathy.
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
