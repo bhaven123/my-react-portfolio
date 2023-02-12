@@ -1,6 +1,14 @@
 import logo from "../../../assets/logo.png";
-import resume from "../../../assets/Bhaven_Naik_Resume.pdf";
-import { Button, Container, Nav, Navbar, Form } from "react-bootstrap";
+import mlResume from "../../../assets/Bhaven_Naik_Resume_ML.pdf";
+import softwareResume from "../../../assets/Bhaven_Naik_Resume_Software.pdf";
+import {
+  Container,
+  Nav,
+  Navbar,
+  Form,
+  DropdownButton,
+  Dropdown,
+} from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -40,14 +48,30 @@ const Header = () => {
             </Nav.Item>
           </Nav>
           <Form className="">
-            <Button
-              href={resume}
-              target="_blank"
-              rel="noreferrer noopener"
+            <DropdownButton
               variant="outline-success"
+              title="Resume"
+              id="nested-resume"
             >
-              Resume
-            </Button>
+              <Dropdown.Item
+                href={softwareResume}
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="outline-success"
+                eventKey="1"
+              >
+                Software Developer
+              </Dropdown.Item>
+              <Dropdown.Item
+                href={mlResume}
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="outline-success"
+                eventKey="2"
+              >
+                Machine Learning Engineer
+              </Dropdown.Item>
+            </DropdownButton>
           </Form>
         </Navbar.Collapse>
       </Container>
