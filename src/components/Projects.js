@@ -26,7 +26,7 @@ const PROJECTS_LIST = [
     src: contactFormImage,
     title: "Full Stack Contact Form",
     link: "https://github.com/bhaven123/contact-form-with-backend",
-    icon: faLink,
+    icon: faGithub,
     text: "A Contact Form that can be integrated into any portfolio website.",
     tools: "ReactJS, ExpressJS, Material-UI, Formik, Yup",
     description1:
@@ -63,7 +63,7 @@ const PROJECTS_LIST = [
     src: portfolio,
     title: "Personal Portfolio",
     link: "https://bhaven-naik.com/",
-    icon: faGithub,
+    icon: faLink,
     text: "My portfolio website.",
     tools: " ReactJS, React-Bootstrap, HTML, CSS",
     description1:
