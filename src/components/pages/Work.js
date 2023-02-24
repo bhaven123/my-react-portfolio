@@ -2,6 +2,7 @@ import portfolio from "../../assets/portfolio.png";
 import drImage from "../../assets/dr.png";
 import ganImage from "../../assets/gans.png";
 import irisImage from "../../assets/iris.png";
+import taskImage from "../../assets/task.png";
 import contactFormImage from "../../assets/contactform.png";
 import modelDeployImage from "../../assets/modeldemo.png";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -375,6 +376,67 @@ const Work = () => {
                           style={{ color: "#ccd6f6" }}
                         >
                           Deployed the project using an AWS EC2 instance.
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card border="light" bg="dark" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={taskImage} />
+              <Card.Body>
+                <Card.Title>
+                  Task Management System{" "}
+                  <Card.Link
+                    href="https://github.com/bhaven123/Task-App"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </Card.Link>
+                </Card.Title>
+                <Card.Text>
+                  To assign tasks for collaboration on planning meals.
+                </Card.Text>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroup.Item
+                  variant="dark"
+                  className="bg-dark"
+                  style={{ color: "#ccd6f6" }}
+                >
+                  ReactJS, ExpressJS, Material-UI, MongoDB
+                </ListGroup.Item>
+              </ListGroup>
+              <Card.Body>
+                <Accordion flush>
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>Description</Accordion.Header>
+                    <Accordion.Body>
+                      <ListGroup>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
+                          Developed a task management system to assign and plan
+                          meals with housemates.
+                        </ListGroup.Item>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
+                          Created the front end using ReactJS and MUI.
+                        </ListGroup.Item>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
+                          Developed the backend server using ExpressJS that
+                          connects to MongoDB.
                         </ListGroup.Item>
                       </ListGroup>
                     </Accordion.Body>
