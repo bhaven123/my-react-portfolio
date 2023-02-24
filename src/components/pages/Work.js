@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Container } from "react-bootstrap";
 import PROJECTS_LIST from "../Projects";
 import ProjectsList from "../ProjectsList";
