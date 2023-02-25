@@ -38,7 +38,7 @@ const PROJECTS_LIST = [
   },
   {
     src: modelDeployImage,
-    title: "Full Stack Contact Form",
+    title: "Model Deploy Demonstration",
     link: "https://github.com/bhaven123/model-deploy-demo",
     icon: faGithub,
     text: "A demon for deploying ML API as a Docker Image to create docker containers.",
