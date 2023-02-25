@@ -41,7 +41,7 @@ const PROJECTS_LIST = [
     title: "Model Deploy Demonstration",
     link: "https://github.com/bhaven123/model-deploy-demo",
     icon: faGithub,
-    text: "A demon for deploying ML API as a Docker Image to create docker containers.",
+    text: "A demo for deploying ML API as a Docker Image to create docker containers.",
     tools: "Python, FastAPI, Docker, PyTorch",
     description1: "Used Hugging Face Inference API for the ML model.",
     description2: "Created Model API using FastAPI.",
