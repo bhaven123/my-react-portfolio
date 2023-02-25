@@ -54,8 +54,8 @@ const About = () => {
             ReactJS and backend using NodeJS and ExpressJS with database
             connection to MongoDB.
           </p>
-          <p className="">The Tech stack that I have been using:</p>
-          <ol className="">
+          <p className="text-justify">The Tech stack that I have been using:</p>
+          <ol>
             <li>
               Python <FontAwesomeIcon icon={faPython} />
             </li>
