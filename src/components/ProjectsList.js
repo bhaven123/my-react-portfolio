@@ -22,7 +22,7 @@ const ProjectsList = ({ projects }) => {
           description3,
         } = projectItem;
         return (
-          <Col>
+          <Col key={title}>
             <Card border="light" bg="dark" style={{ width: "18rem" }}>
               <Card.Img variant="top" src={src} />
               <Card.Body>
