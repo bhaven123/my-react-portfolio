@@ -31,15 +31,28 @@ const About = () => {
         <Container className="mb-0 fs-5" style={{ color: "#ccd6f6" }}>
           <h1 className="text-center">Hi! I'm Bhaven Naik</h1>
           <p className="text-justify">
-            I have an interest in Full-Stack Development, Machine Learning, and
-            Data Science. I am very excited to kickstart my professional career.
-            I am always open to learning new things and grow as a developer.
+            As a Full Stack Engineer and Machine Learning enthusiast, I bring a
+            unique blend of skills and experience to any project. With expertise
+            in front-end and back-end technologies such as ReactJS, NodeJS,
+            ExpressJS, MongoDB, and databases like PostgreSQL and MySQL, I am
+            capable of designing and building scalable, responsive, and visually
+            appealing applications. Additionally, my proficiency in machine
+            learning frameworks such as TensorFlow, Keras, and Scikit-learn,
+            coupled with a Master's in Applied Computer Science, enables me to
+            develop intelligent systems that can analyze data, make predictions,
+            and automate processes. Whether it's building a robust web
+            application or developing a machine learning model, I am passionate
+            about learning and delivering high-quality work that meets business
+            requirements. If you're looking for a Full Stack Engineer with
+            expertise in Machine Learning, feel free to connect with me.
           </p>
           <p className="text-justify">
-            Currently, I am working on building a Contact Form using ReactJS
-            which sends an email in response to the form submission. I am also
-            working on a Full-Stack cake-ordering application with frontend in
-            ReactJS and backend using NodeJS and ExpressJS.
+            I am very excited to kickstart my professional career. I am a self
+            starter and a quick learner. Additionally, I am open to learning new
+            things. Currently, I am working on building a Task Management App
+            using ReactJS and on a cake-ordering application with frontend in
+            ReactJS and backend using NodeJS and ExpressJS with database
+            connection to MongoDB.
           </p>
           <p className="">The Tech stack that I have been using:</p>
           <ol className="">
