@@ -40,11 +40,14 @@ const About = () => {
             learning frameworks such as TensorFlow, Keras, and Scikit-learn,
             coupled with a Master's in Applied Computer Science, enables me to
             develop intelligent systems that can analyze data, make predictions,
-            and automate processes. Whether it's building a robust web
-            application or developing a machine learning model, I am passionate
-            about learning and delivering high-quality work that meets business
-            requirements. If you're looking for a Full Stack Engineer with
-            expertise in Machine Learning, feel free to connect with me.
+            and automate processes.
+          </p>
+          <p className="text-justify">
+            Whether it's building a robust web application or developing a
+            machine learning model, I am passionate about learning and
+            delivering high-quality work that meets business requirements. If
+            you're looking for a Full Stack Engineer with expertise in Machine
+            Learning, feel free to connect with me.
           </p>
           <p className="text-justify">
             I am very excited to kickstart my professional career. I am a self
