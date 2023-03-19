@@ -10,17 +10,8 @@ const ProjectsList = ({ projects }) => {
       style={{ color: "#ccd6f6" }}
     >
       {projects.map((projectItem) => {
-        const {
-          src,
-          title,
-          link,
-          icon,
-          text,
-          tools,
-          description1,
-          description2,
-          description3,
-        } = projectItem;
+        const { src, title, link, icon, text, tools, description } =
+          projectItem;
         return (
           <Col key={title}>
             <Card border="light" bg="dark" style={{ width: "18rem" }}>
@@ -53,19 +44,25 @@ const ProjectsList = ({ projects }) => {
                           className="bg-dark"
                           style={{ color: "#ccd6f6" }}
                         >
-                          {description1}
+                          {description[0]}
                         </ListGroup.Item>
                         <ListGroup.Item
                           className="bg-dark"
                           style={{ color: "#ccd6f6" }}
                         >
-                          {description2}
+                          {description[1]}
                         </ListGroup.Item>
                         <ListGroup.Item
                           className="bg-dark"
                           style={{ color: "#ccd6f6" }}
                         >
-                          {description3}
+                          {description[2]}
+                        </ListGroup.Item>
+                        <ListGroup.Item
+                          className="bg-dark"
+                          style={{ color: "#ccd6f6" }}
+                        >
+                          {description[3]}
                         </ListGroup.Item>
                       </ListGroup>
                     </Accordion.Body>
