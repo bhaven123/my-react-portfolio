@@ -30,7 +30,7 @@ const PROJECTS_LIST = [
     link: "https://github.com/bhaven123/cake-ordering-system",
     icon: faGithub,
     text: "An app used to order cakes online.",
-    tools: "ReactJS, ExpressJS, Material-UI, MongoDB",
+    tools: "ReactJS, ExpressJS, MongoDB, HTML, CSS, Netlify",
     description: [
       "Developed a Cake Ordering System with client and user dashboards to assist home-based cake businesses.",
       "Implemented front-end using ReactJS for flexibility and state-of-the-art functionality.",
@@ -60,7 +60,8 @@ const PROJECTS_LIST = [
     text: "A demonstration of exploratory data analysis on Iris Flower dataset.",
     tools: "Python, Jupyter, Pandas, Scikit-learn, Matplotlib, Seaborn",
     description: [
-      "Performed EDA on the Iris Flower dataset using Python and Jupyter Notebook.",
+      "Performed EDA on the Iris Flower dataset using Python libraries like pandas, scikit-learn, seaborn, matplotlib.",
+      "Implemented the analysis in Jupyter notebook for better visualization.",
     ],
   },
   {
@@ -71,9 +72,9 @@ const PROJECTS_LIST = [
     text: "A demo for deploying ML API as a Docker Image to create docker containers.",
     tools: "Python, FastAPI, Docker, PyTorch",
     description: [
-      "Used Hugging Face Inference API for the ML model.",
-      "Created Model API using FastAPI.",
-      "Created Docker Image for deployment.",
+      "Implemented inference requests to the ML model using the Hugging Face Inference API.",
+      "Developed Model API using one of the fastest Python web frameworks FastAPI.",
+      "Designed a Docker Container Image for deployment purposes.",
     ],
   },
   {
@@ -98,9 +99,9 @@ const PROJECTS_LIST = [
     text: "A Generative Adversarial Network (GAN) to augment human action recognition videos.",
     tools: "Python, PyTorch, PyTorch Lightning, PyTorchVideo",
     description: [
-      "Worked on developing a GAN as a research project.",
-      "Developed a GAN that could produce augmented videos of Human Action Recognition using PyTorch and PyTorch Lightning on the HMDB51 dataset.",
-      "Using a pretrained video classifier available in PyTorchVideo, tested whether the augmented videos help in improving the performance of the classifier.",
+      "Researched the applications of Generative Adversarial Networks (GANs) in the field of Medical Science.",
+      "Developed a fine-tuned PyTorch Lightning DCGAN on the HMDB51 (Human Action Recognition) dataset to generate augmented videos.",
+      "Used PyTorchVideo's pre-trained classifier to compare the difference between augmented clips and original clips.",
     ],
   },
   {
@@ -111,8 +112,8 @@ const PROJECTS_LIST = [
     text: " Fine-tuning a pre-trained model to detect the severities of the Diabetic Retinopathy.",
     tools: "Python, Tensorflow, Keras, Flask, HTML, CSS, AWS EC2",
     description: [
-      "Worked with TensorFlow Keras to fine tune a pre-trained VGG16 model with custom classes.",
-      "Created a client interface using Flask, HTML, CSS.",
+      "Worked with TensorFlow Keras to fine-tune a pre-trained VGG16 model with custom classes as severities of Diabetic Retinopathy.",
+      "Created an easily usable client interface using Flask for the backend, and HTML for the frontend, and designed it using CSS.",
       "Deployed the project using an AWS EC2 instance.",
     ],
   },
