@@ -7,14 +7,23 @@ const ProjectsList = ({ projects }) => {
       xl={3}
       md={2}
       className="g-5 text-justify mx-auto"
-      style={{ color: "#ccd6f6" }}
+      style={{
+        color: "#ccd6f6",
+      }}
     >
       {projects.map((projectItem) => {
         const { src, title, link, icon, text, tools, description } =
           projectItem;
         return (
           <Col key={title}>
-            <Card border="light" bg="dark" style={{ width: "18rem" }}>
+            <Card
+              border="light"
+              bg="dark"
+              style={{
+                width: "18rem",
+                margin: "auto",
+              }}
+            >
               <Card.Img variant="top" src={src} />
               <Card.Body>
                 <Card.Title>
