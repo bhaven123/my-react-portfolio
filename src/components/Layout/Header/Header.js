@@ -52,7 +52,7 @@ const Header = () => {
               variant="outline-success"
               title="Resume"
               id="nested-resume"
-              align="end"
+              align={{ lg: "end" }}
             >
               <Dropdown.Item
                 href={softwareResume}
