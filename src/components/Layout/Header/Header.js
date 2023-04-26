@@ -47,11 +47,12 @@ const Header = () => {
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav.Item>
           </Nav>
-          <Form className="">
+          <Form>
             <DropdownButton
               variant="outline-success"
               title="Resume"
               id="nested-resume"
+              align="end"
             >
               <Dropdown.Item
                 href={softwareResume}
