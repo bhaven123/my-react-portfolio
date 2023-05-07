@@ -20,7 +20,7 @@ const Home = () => {
         </h2>
         <p className="fs-5" style={{ color: "#8892b0" }}>
           I'm currently looking for any available opporunites as a Machine
-          Learning Enginner or a Full-Stack Developer.
+          Learning Engineer or a Full-Stack Developer.
         </p>
       </Card>
     </Container>
