@@ -19,7 +19,7 @@ const Home = () => {
           I'm a Software Developer.
         </h2>
         <p className="fs-5" style={{ color: "#8892b0" }}>
-          I'm currently looking for any available opporunites as a Machine
+          I'm currently looking for any available opportunities as a Machine
           Learning Engineer or a Full-Stack Developer.
         </p>
       </Card>
