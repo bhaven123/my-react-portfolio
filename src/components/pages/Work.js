@@ -12,7 +12,7 @@ const Work = () => {
       >
         My <span style={{ color: "purple" }}>Work</span>
       </h1>
-      <Container className="d-flex justify-content-center align-items-center">
+      <Container>
         <ProjectsList projects={PROJECTS_LIST} />
       </Container>
     </Container>

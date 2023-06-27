@@ -109,7 +109,7 @@ const PROJECTS_LIST = [
     title: "Diabetic Retinopathy",
     link: "https://github.com/bhaven123/Project-Diabetic-Retinopathy.git",
     icon: faGithub,
-    text: " Fine-tuning a pre-trained model to detect the severities of the Diabetic Retinopathy.",
+    text: "Fine-tuning a pre-trained model to detect the severities of the Diabetic Retinopathy.",
     tools: "Python, Tensorflow, Keras, Flask, HTML, CSS, AWS EC2",
     description: [
       "Worked with TensorFlow Keras to fine-tune a pre-trained VGG16 model with custom classes as severities of Diabetic Retinopathy.",
