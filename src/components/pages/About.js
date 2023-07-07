@@ -6,6 +6,7 @@ import {
   faHtml5,
   faCss3,
   faBootstrap,
+  faDocker,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "react-bootstrap";
@@ -66,20 +67,23 @@ const About = () => {
           <p>The Tech stack that I have been using:</p>
           <ol>
             <li>
-              Python <FontAwesomeIcon icon={faPython} />
+              Python <FontAwesomeIcon icon={faPython} shake />
             </li>
             <li>
-              ReactJS <FontAwesomeIcon icon={faReact} />
+              ReactJS <FontAwesomeIcon icon={faReact} spin />
             </li>
             <li>
-              NodeJS <FontAwesomeIcon icon={faNode} />
+              NodeJS <FontAwesomeIcon icon={faNode} beat />
             </li>
             <li>
-              HTML <FontAwesomeIcon icon={faHtml5} />
+              HTML <FontAwesomeIcon icon={faHtml5} beatFade />
             </li>
             <li>
-              Bootstrap <FontAwesomeIcon icon={faBootstrap} /> & CSS{" "}
-              <FontAwesomeIcon icon={faCss3} />
+              Bootstrap <FontAwesomeIcon icon={faBootstrap} flip /> & CSS{" "}
+              <FontAwesomeIcon icon={faCss3} flip />
+            </li>
+            <li>
+              Docker <FontAwesomeIcon icon={faDocker} bounce />
             </li>
           </ol>
         </Container>
