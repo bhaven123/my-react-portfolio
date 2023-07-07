@@ -18,7 +18,11 @@ const ProjectsList = ({ projects }) => {
           projectItem;
         return (
           <Card key={title} border="light" bg="dark">
-            <Card.Img variant="top" src={src} style={{ objectFit: "cover" }} />
+            <Card.Img
+              variant="top"
+              src={src}
+              style={{ objectFit: "cover", height: "160px" }}
+            />
             <Card.Body>
               <Card.Title>
                 {title}{" "}
@@ -28,7 +32,7 @@ const ProjectsList = ({ projects }) => {
               </Card.Title>
               <Card.Text>{text}</Card.Text>
             </Card.Body>
-            <ListGroup className="list-group-flush">
+            <ListGroup className="list-group-flush" style={{ height: "100px" }}>
               <ListGroup.Item
                 variant="dark"
                 className="bg-dark"
@@ -37,41 +41,26 @@ const ProjectsList = ({ projects }) => {
                 {tools}
               </ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <Accordion flush>
-                <Accordion.Item eventKey="0">
-                  <Accordion.Header>Description</Accordion.Header>
-                  <Accordion.Body>
-                    <ListGroup>
+            <Accordion flush style={{}}>
+              <Accordion.Item eventKey="0" style={{ backgroundColor: "black" }}>
+                <Accordion.Header>Description</Accordion.Header>
+                <Accordion.Body
+                  style={{ maxHeight: "200px", overflowY: "auto" }}
+                >
+                  <ListGroup>
+                    {description.map((item, index) => (
                       <ListGroup.Item
+                        key={index}
                         className="bg-dark"
                         style={{ color: "#ccd6f6" }}
                       >
-                        {description[0]}
+                        {item}
                       </ListGroup.Item>
-                      <ListGroup.Item
-                        className="bg-dark"
-                        style={{ color: "#ccd6f6" }}
-                      >
-                        {description[1]}
-                      </ListGroup.Item>
-                      <ListGroup.Item
-                        className="bg-dark"
-                        style={{ color: "#ccd6f6" }}
-                      >
-                        {description[2]}
-                      </ListGroup.Item>
-                      <ListGroup.Item
-                        className="bg-dark"
-                        style={{ color: "#ccd6f6" }}
-                      >
-                        {description[3]}
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </Card.Body>
+                    ))}
+                  </ListGroup>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
           </Card>
         );
       })}
