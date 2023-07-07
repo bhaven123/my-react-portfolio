@@ -61,7 +61,7 @@ const Header = () => {
                 variant="outline-success"
                 eventKey="1"
               >
-                Software Developer
+                Full Stack Developer
               </Dropdown.Item>
               <Dropdown.Item
                 href={mlResume}
