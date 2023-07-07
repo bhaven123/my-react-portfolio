@@ -16,11 +16,11 @@ const Home = () => {
           Bhaven Naik.
         </h1>
         <h2 className="fw-bolder display-2" style={{ color: "#8892b0" }}>
-          I'm a Software Developer.
+          I'm a Full Stack Developer | Machine Learning Engineer.
         </h2>
         <p className="fs-5" style={{ color: "#8892b0" }}>
           I'm currently looking for any available opportunities as a Machine
-          Learning Engineer or a Full-Stack Developer.
+          Learning Engineer or a Full Stack Developer.
         </p>
       </Card>
     </Container>
