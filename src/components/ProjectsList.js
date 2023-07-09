@@ -25,7 +25,7 @@ const ProjectsList = ({ projects }) => {
             />
             <Card.Body>
               <Card.Title>
-                {title}{" "}
+                {title} |{" "}
                 <Card.Link href={link} target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={icon} />
                 </Card.Link>
