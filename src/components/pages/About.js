@@ -69,15 +69,21 @@ const About = () => {
             <li>
               Python <FontAwesomeIcon icon={faPython} shake />
             </li>
+            <li>PyTorch</li>
+            <li>TensorFlow</li>
             <li>
-              ReactJS <FontAwesomeIcon icon={faReact} spin />
+              React.js <FontAwesomeIcon icon={faReact} spin />
             </li>
+            <li>Redux</li>
             <li>
-              NodeJS <FontAwesomeIcon icon={faNode} beat />
+              Node.js <FontAwesomeIcon icon={faNode} beat />
             </li>
+            <li>Express</li>
+            <li>MongoDB</li>
             <li>
               HTML <FontAwesomeIcon icon={faHtml5} beatFade />
             </li>
+            <li>Material UI</li>
             <li>
               Bootstrap <FontAwesomeIcon icon={faBootstrap} flip /> & CSS{" "}
               <FontAwesomeIcon icon={faCss3} flip />
