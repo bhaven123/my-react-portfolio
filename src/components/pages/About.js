@@ -40,8 +40,8 @@ const About = () => {
           <p>
             As a Full Stack Engineer and Machine Learning enthusiast, I bring a
             unique blend of skills and experience to any project. With expertise
-            in front-end and back-end technologies such as ReactJS, NodeJS,
-            ExpressJS, MongoDB, and databases like PostgreSQL and MySQL, I am
+            in front-end and back-end technologies such as React.js, Node.js,
+            Express.js, MongoDB, and databases like PostgreSQL and MySQL, I am
             capable of designing and building scalable, responsive, and visually
             appealing applications. Additionally, my proficiency in machine
             learning frameworks such as TensorFlow, Keras, and Scikit-learn,
@@ -60,8 +60,8 @@ const About = () => {
             I am very excited to kickstart my professional career. I am a self
             starter and a quick learner. Additionally, I am open to learning new
             things. Currently, I am working on building a Task Management App
-            using ReactJS and on a cake-ordering application with frontend in
-            ReactJS and backend using NodeJS and ExpressJS with database
+            using React.js and on a cake-ordering application with frontend in
+            React.js and backend using Node.js and Express.js with database
             connection to MongoDB.
           </p>
           <p>The Tech stack that I have been using:</p>
