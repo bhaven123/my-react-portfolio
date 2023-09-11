@@ -16,11 +16,11 @@ const Home = () => {
           Bhaven Naik.
         </h1>
         <h2 className="fw-bolder display-2" style={{ color: "#8892b0" }}>
-          I'm a Full Stack Developer | Machine Learning Engineer.
+          I'm an 🤖 Artificial Intelligence Consultant at Lemay.ai
         </h2>
         <p className="fs-5" style={{ color: "#8892b0" }}>
-          I'm currently looking for any available opportunities as a Machine
-          Learning Engineer or a Full Stack Developer.
+          🌟 Let's dive into the world of AI together! Driving AI Innovation for
+          Business Transformation 🚀
         </p>
       </Card>
     </Container>
