@@ -56,14 +56,6 @@ const About = () => {
             you're looking for a Full Stack Engineer with expertise in Machine
             Learning, feel free to connect with me.
           </p>
-          <p>
-            I am very excited to kickstart my professional career. I am a self
-            starter and a quick learner. Additionally, I am open to learning new
-            things. Currently, I am working on building a Task Management App
-            using React.js and on a cake-ordering application with frontend in
-            React.js and backend using Node.js and Express.js with database
-            connection to MongoDB.
-          </p>
           <p>The Tech stack that I have been using:</p>
           <ol>
             <li>
