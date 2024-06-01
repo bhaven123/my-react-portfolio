@@ -1,4 +1,4 @@
-import profileImage from "../../assets/profile.jpg";
+import profileImage from "../../assets/PXL_20240331_213208441.PORTRAIT.jpg";
 import {
   faPython,
   faReact,
@@ -36,54 +36,50 @@ const About = () => {
             textAlign: "justify",
           }}
         >
-          <h1 className="text-center">Hi! I'm Bhaven Naik</h1>
+          <h1 className="text-center">👋 Hi! I'm Bhaven Naik</h1>
           <p>
-            As a Full Stack Engineer and Machine Learning enthusiast, I bring a
-            unique blend of skills and experience to any project. With expertise
-            in front-end and back-end technologies such as React.js, Node.js,
-            Express.js, MongoDB, and databases like PostgreSQL and MySQL, I am
-            capable of designing and building scalable, responsive, and visually
-            appealing applications. Additionally, my proficiency in machine
-            learning frameworks such as TensorFlow, Keras, and Scikit-learn,
-            coupled with a Master's in Applied Computer Science, enables me to
-            develop intelligent systems that can analyze data, make predictions,
-            and automate processes.
+            I'm an AI Consultant at Lemay.ai passionate about transforming data into actionable insights and building robust AI solutions. My expertise spans MLOps, Solution Architecture, Data Science, and Exploratory Data Analysis (EDA).
           </p>
           <p>
-            Whether it's building a robust web application or developing a
-            machine learning model, I am passionate about learning and
-            delivering high-quality work that meets business requirements. If
-            you're looking for a Full Stack Engineer with expertise in Machine
-            Learning, feel free to connect with me.
+            🔧 Technologies & Tools I Work With:
           </p>
-          <p>The Tech stack that I have been using:</p>
-          <ol>
+          <ul>
             <li>
-              Python <FontAwesomeIcon icon={faPython} shake />
+              Programming Languages: Python <FontAwesomeIcon icon={faPython} shake />
             </li>
-            <li>PyTorch</li>
-            <li>TensorFlow</li>
+            <li>Frameworks & Libraries: TensorFlow, PyTorch</li>
+            <li>Containerization & Orchestration: Docker <FontAwesomeIcon icon={faDocker} bounce />, Kubernetes</li>
+            <li>Workflow & Automation: Airflow, MLflow</li>
             <li>
-              React.js <FontAwesomeIcon icon={faReact} spin />
-            </li>
-            <li>Redux</li>
-            <li>
-              Node.js <FontAwesomeIcon icon={faNode} beat />
-            </li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>
-              HTML <FontAwesomeIcon icon={faHtml5} beatFade />
-            </li>
-            <li>Material UI</li>
-            <li>
-              Bootstrap <FontAwesomeIcon icon={faBootstrap} flip /> & CSS{" "}
+              Web Development: Flask, FastAPI, AngularJS <FontAwesomeIcon icon={faAngular} spin />, NextJS, NodeJS <FontAwesomeIcon icon={faNode} />, ReactJS <FontAwesomeIcon icon={faReact} spin />, HTML <FontAwesomeIcon icon={faHtml5} beatFade /> Bootstrap <FontAwesomeIcon icon={faBootstrap} flip /> & CSS{" "}
               <FontAwesomeIcon icon={faCss3} flip />
             </li>
+            <li>Streaming & Databases: Kafka, Neo4j, Elastic Search, Postgres, MongoDB, Redis, Vector Databases</li>
             <li>
-              Docker <FontAwesomeIcon icon={faDocker} bounce />
+              Infrastructure as Code: Terraform, Ansible
             </li>
-          </ol>
+            <li>Operating Systems: Linux <FontAwesomeIcon icon={faLinux} />, MacOS <FontAwesomeIcon icon={faApple} />, and Windows <FontAwesomeIcon icon={faWindows} /></li>
+            <li>CI/CD: GitLab <FontAwesomeIcon icon={faGitlab} />, Git <FontAwesomeIcon icon={faGitAlt} /></li>
+            <li>
+              Cloud Services: AWS <FontAwesomeIcon icon={faAws} />, Heroku
+            </li>
+            <li>Web Servers: Nginx</li>
+            <li>
+              Queue Management: Bull for Redis
+            </li>
+            <li>
+              API Testing: Postman
+            </li>
+            <li>
+                Machine Learning Tools & Techniques: Comprehensive expertise in all ML tools and techniques, including:
+                - Supervised
+                - Unsupervised Learning
+                - Deep Learning
+                - Reinforcement Learning
+            </li>
+          </ul>
+          <p>💡 I thrive on solving complex problems and delivering scalable, efficient solutions. Whether it's developing end-to-end machine learning pipelines or architecting cloud-based systems, I aim to drive innovation and excellence in every project </p>
+          <p>🚀 Let's connect and collaborate on exciting AI and data science ventures!</p>
         </Container>
       </Container>
     </Container>
