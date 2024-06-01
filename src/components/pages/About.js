@@ -45,7 +45,7 @@ const About = () => {
         >
           <h1 className="text-center">👋 Hi! I'm Bhaven Naik</h1>
           <p>
-            I'm an AI Consultant at Lemay.ai passionate about transforming data into actionable insights and building robust AI solutions. My expertise spans MLOps, Solution Architecture, Data Science, and Exploratory Data Analysis (EDA).
+            I'm an AI Consultant at Lemay.ai passionate about transforming data into actionable insights and building robust AI solutions. My expertise spans MLOps, Solution Architecture, Data Science, Machine Learning, Deep Learning, and Exploratory Data Analysis (EDA).
           </p>
           <p>
             🔧 Technologies & Tools I Work With:
@@ -58,7 +58,7 @@ const About = () => {
             <li>Containerization & Orchestration: Docker <FontAwesomeIcon icon={faDocker} bounce />, Kubernetes</li>
             <li>Workflow & Automation: Airflow, MLflow</li>
             <li>
-              Web Development: Flask, FastAPI, AngularJS <FontAwesomeIcon icon={faAngular} spin />, NextJS, NodeJS <FontAwesomeIcon icon={faNode} />, ReactJS <FontAwesomeIcon icon={faReact} spin />, HTML <FontAwesomeIcon icon={faHtml5} beatFade /> Bootstrap <FontAwesomeIcon icon={faBootstrap} flip /> & CSS{" "}
+              Web Development: Flask, FastAPI, AngularJS <FontAwesomeIcon icon={faAngular} flip />, NextJS, NodeJS <FontAwesomeIcon icon={faNode} />, ReactJS <FontAwesomeIcon icon={faReact} spin />, HTML <FontAwesomeIcon icon={faHtml5} beatFade /> Bootstrap <FontAwesomeIcon icon={faBootstrap} flip /> & CSS{" "}
               <FontAwesomeIcon icon={faCss3} flip />
             </li>
             <li>Streaming & Databases: Kafka, Neo4j, Elastic Search, Postgres, MongoDB, Redis, Vector Databases</li>
@@ -79,10 +79,12 @@ const About = () => {
             </li>
             <li>
                 Machine Learning Tools & Techniques: Comprehensive expertise in all ML tools and techniques, including:
+                <ul>
                 <li> Supervised </li>
                 <li> Unsupervised Learning </li>
                 <li> Deep Learning </li>
                 <li> Reinforcement Learning </li>
+                </ul>
             </li>
           </ul>
           <p>💡 I thrive on solving complex problems and delivering scalable, efficient solutions. Whether it's developing end-to-end machine learning pipelines or architecting cloud-based systems, I aim to drive innovation and excellence in every project </p>
