@@ -79,10 +79,10 @@ const About = () => {
             </li>
             <li>
                 Machine Learning Tools & Techniques: Comprehensive expertise in all ML tools and techniques, including:
-                - Supervised
-                - Unsupervised Learning
-                - Deep Learning
-                - Reinforcement Learning
+                <li> Supervised </li>
+                <li> Unsupervised Learning </li>
+                <li> Deep Learning </li>
+                <li> Reinforcement Learning </li>
             </li>
           </ul>
           <p>💡 I thrive on solving complex problems and delivering scalable, efficient solutions. Whether it's developing end-to-end machine learning pipelines or architecting cloud-based systems, I aim to drive innovation and excellence in every project </p>
