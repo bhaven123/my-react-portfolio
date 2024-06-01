@@ -7,6 +7,13 @@ import {
   faCss3,
   faBootstrap,
   faDocker,
+  faAws,
+  faAngular,
+  faLinux,
+  faWindows,
+  faGitlab,
+  faGitAlt,
+  faApple
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "react-bootstrap";
