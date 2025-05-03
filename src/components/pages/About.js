@@ -1,19 +1,12 @@
-import profileImage from "../../assets/PXL_20240331_213208441.PORTRAIT.jpg";
+import profileImage from "../../assets/Profile Picture.png";
 import {
   faPython,
-  faReact,
-  faNode,
-  faHtml5,
-  faCss3,
   faBootstrap,
   faDocker,
   faAws,
-  faAngular,
   faLinux,
   faWindows,
-  faGitlab,
-  faGitAlt,
-  faApple
+  faApple,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "react-bootstrap";
@@ -45,50 +38,25 @@ const About = () => {
         >
           <h1 className="text-center">👋 Hi! I'm Bhaven Naik</h1>
           <p>
-            I'm an AI Consultant at Lemay.ai passionate about transforming data into actionable insights and building robust AI solutions. My expertise spans MLOps, Solution Architecture, Data Science, Machine Learning, Deep Learning, and Exploratory Data Analysis (EDA).
+            I'm an AI Consultant at Lemay.ai passionate about transforming data into actionable insights and building robust AI solutions. My expertise spans MLOps, Solution Architecture, Data Science, Machine Learning, and Deep Learning.
+
+            💡I thrive on solving complex problems and delivering scalable, efficient solutions. Whether it's developing end-to-end machine learning pipelines or architecting cloud-based systems, I aim to drive innovation and excellence in every project.
+
+            🚀 Let's connect and collaborate on exciting AI and data science ventures!
           </p>
           <p>
-            🔧 Technologies & Tools I Work With:
+            Technical Skills:
           </p>
           <ul>
+            <li>Machine Learning & Data Science: PyTorch, TensorFlow, Keras, Scikit-Learn, Hugging Face, Reinforcement Learning, Computer Vision, Pandas, NumPy, PySpark, MLflow, DVC, Airflow, Matplotlib, Power BI</li>
+            <li>MLOps & DevOps: Git, GitHub, GitLab, Bitbucket, Docker <FontAwesomeIcon icon={faDocker} bounce />, Kubernetes, Airflow, MLflow, DVC, Terraform, Ansible</li>
+            <li>Programming & Web Development: Python <FontAwesomeIcon icon={faPython} shake />, JavaScript (Node.js), FastAPI, Flask, Express.js, React.js, Gradio, HTML5, CSS3, Bootstrap <FontAwesomeIcon icon={faBootstrap} flip /></li>
             <li>
-              Programming Languages: Python <FontAwesomeIcon icon={faPython} shake />
-            </li>
-            <li>Frameworks & Libraries: TensorFlow, PyTorch</li>
-            <li>Containerization & Orchestration: Docker <FontAwesomeIcon icon={faDocker} bounce />, Kubernetes</li>
-            <li>Workflow & Automation: Airflow, MLflow</li>
-            <li>
-              Web Development: Flask, FastAPI, AngularJS <FontAwesomeIcon icon={faAngular} flip />, NextJS, NodeJS <FontAwesomeIcon icon={faNode} />, ReactJS <FontAwesomeIcon icon={faReact} spin />, HTML <FontAwesomeIcon icon={faHtml5} beatFade /> Bootstrap <FontAwesomeIcon icon={faBootstrap} flip /> & CSS{" "}
-              <FontAwesomeIcon icon={faCss3} flip />
-            </li>
-            <li>Streaming & Databases: Kafka, Neo4j, Elastic Search, Postgres, MongoDB, Redis, Vector Databases</li>
-            <li>
-              Infrastructure as Code: Terraform, Ansible
+              Cloud & Infrastructure: AWS <FontAwesomeIcon icon={faAws} />, Azure, Hadoop, Sqoop, Hive, MySQL, MongoDB
             </li>
             <li>Operating Systems: Linux <FontAwesomeIcon icon={faLinux} />, MacOS <FontAwesomeIcon icon={faApple} />, and Windows <FontAwesomeIcon icon={faWindows} /></li>
-            <li>CI/CD: GitLab <FontAwesomeIcon icon={faGitlab} />, Git <FontAwesomeIcon icon={faGitAlt} /></li>
-            <li>
-              Cloud Services: AWS <FontAwesomeIcon icon={faAws} />, Heroku
-            </li>
-            <li>Web Servers: Nginx</li>
-            <li>
-              Queue Management: Bull for Redis
-            </li>
-            <li>
-              API Testing: Postman
-            </li>
-            <li>
-                Machine Learning Tools & Techniques: Comprehensive expertise in all ML tools and techniques, including:
-                <ul>
-                <li> Supervised </li>
-                <li> Unsupervised Learning </li>
-                <li> Deep Learning </li>
-                <li> Reinforcement Learning </li>
-                </ul>
-            </li>
+            <li>•Tools & Environments: VS Code, NeoVim, JetBrains, Jupyter, Anaconda, Jira, Slack, Zoom, MS Teams, Discord</li>
           </ul>
-          <p>💡 I thrive on solving complex problems and delivering scalable, efficient solutions. Whether it's developing end-to-end machine learning pipelines or architecting cloud-based systems, I aim to drive innovation and excellence in every project </p>
-          <p>🚀 Let's connect and collaborate on exciting AI and data science ventures!</p>
         </Container>
       </Container>
     </Container>
