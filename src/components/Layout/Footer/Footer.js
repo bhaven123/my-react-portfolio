@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg">
       <Container className="justify-content-between align-items-center py-3 my-4 border-top">
-        <span className="text-muted">&copy; 2023 Created by Bhaven Naik</span>
+        <span className="text-muted">&copy; 2025 Created by Bhaven Naik</span>
         <Nav className="col-md-4 justify-content-end">
           <Nav.Item>
             <Nav.Link

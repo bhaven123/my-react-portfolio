@@ -45,6 +45,12 @@ const About = () => {
             🚀 Let's connect and collaborate on exciting AI and data science ventures!
           </p>
           <p>
+            Experience:
+          </p>
+          <ul>
+            <li>Artificial Intelligence Consultant at Lemay.ai (2023-Present)</li>
+          </ul>
+          <p>
             Technical Skills:
           </p>
           <ul>
@@ -56,6 +62,17 @@ const About = () => {
             </li>
             <li>Operating Systems: Linux <FontAwesomeIcon icon={faLinux} />, MacOS <FontAwesomeIcon icon={faApple} />, and Windows <FontAwesomeIcon icon={faWindows} /></li>
             <li>•Tools & Environments: VS Code, NeoVim, JetBrains, Jupyter, Anaconda, Jira, Slack, Zoom, MS Teams, Discord</li>
+          </ul>
+          <p>
+            Education:
+          </p>
+          <ul>
+            <li>
+              Master of Applied Computer Science at St. Francis Xavier University (2020-2022)
+            </li>
+            <li>
+              Bachelor of Computer Engineering at University of Mumbai (2016-2020)
+            </li>
           </ul>
         </Container>
       </Container>

@@ -10,7 +10,7 @@ const Work = () => {
         className="w-25 mx-auto text-center border-3 border-bottom border-secondary border-end mb-5 pb-3 fs-1 fw-bolder fw-bolder"
         style={{ color: "#ccd6f6" }}
       >
-        My <span style={{ color: "purple" }}>Work</span>
+        My <span style={{ color: "purple" }}>Projects</span>
       </h1>
       <Container>
         <ProjectsList projects={PROJECTS_LIST} />

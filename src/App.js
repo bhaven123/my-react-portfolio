@@ -36,8 +36,8 @@ const App = () => {
         <div className="background">
           <Header />
           <Home />
-          <Work />
           <About />
+          <Work />
           <Contact />
           <Footer />
         </div>
